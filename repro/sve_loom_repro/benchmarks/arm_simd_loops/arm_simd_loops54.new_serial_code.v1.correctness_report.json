@@ -1,0 +1,340 @@
+{
+  "summary": {
+    "problem": "/home/user/selective_repo/results/generated/contextualized_benchmarks/arm_simd_loops/arm_simd_loops_contextualized.problem.with_solution_scalar.jsonl",
+    "artifact": "/home/user/simdbench_full/results/generated/high_quality_arm_simd_loops/arm_simd_loops54.new_serial_code.v1.jsonl",
+    "overlay": "/home/user/simdbench_full/results/generated/high_quality_arm_simd_loops/arm_simd_loops54.problem.high_quality_serial_v1.jsonl",
+    "rows": 54,
+    "manual_overrides": 32,
+    "passthrough": 22,
+    "ok": 53,
+    "local_skip_unsupported_fp16": 1,
+    "compile_fail": 0,
+    "run_fail": 0
+  },
+  "rows": [
+    {
+      "task_id": "arm_simd_loops.loop_001",
+      "source": "manual_high_quality_override_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_002",
+      "source": "manual_high_quality_override_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_003",
+      "source": "manual_high_quality_override_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_004",
+      "source": "manual_high_quality_override_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_005",
+      "source": "manual_high_quality_override_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_006",
+      "source": "manual_high_quality_override_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_008",
+      "source": "manual_high_quality_override_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_009",
+      "source": "original_serial_passthrough_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_010",
+      "source": "manual_high_quality_override_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_012",
+      "source": "original_serial_passthrough_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_019",
+      "source": "original_serial_passthrough_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_022",
+      "source": "original_serial_passthrough_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_023",
+      "source": "manual_high_quality_override_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_024",
+      "source": "manual_high_quality_override_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_025",
+      "source": "original_serial_passthrough_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_026",
+      "source": "original_serial_passthrough_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_027",
+      "source": "manual_high_quality_override_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_028",
+      "source": "manual_high_quality_override_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_029",
+      "source": "original_serial_passthrough_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_031",
+      "source": "manual_high_quality_override_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_032",
+      "source": "manual_high_quality_override_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_033",
+      "source": "manual_high_quality_override_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_034",
+      "source": "original_serial_passthrough_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_035",
+      "source": "manual_high_quality_override_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_036",
+      "source": "original_serial_passthrough_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_037",
+      "source": "manual_high_quality_override_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_038",
+      "source": "manual_high_quality_override_v1",
+      "status": "local_skip_unsupported_fp16",
+      "detail_tail": "local g++ does not support __fp16 signatures"
+    },
+    {
+      "task_id": "arm_simd_loops.loop_040",
+      "source": "manual_high_quality_override_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_101",
+      "source": "manual_high_quality_override_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_102",
+      "source": "original_serial_passthrough_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_103",
+      "source": "original_serial_passthrough_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_104",
+      "source": "original_serial_passthrough_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_105",
+      "source": "manual_high_quality_override_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_106",
+      "source": "original_serial_passthrough_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_107",
+      "source": "original_serial_passthrough_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_108",
+      "source": "manual_high_quality_override_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_109",
+      "source": "manual_high_quality_override_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_110",
+      "source": "original_serial_passthrough_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_111",
+      "source": "original_serial_passthrough_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_112",
+      "source": "manual_high_quality_override_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_113",
+      "source": "manual_high_quality_override_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_114",
+      "source": "original_serial_passthrough_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_120",
+      "source": "manual_high_quality_override_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_121",
+      "source": "manual_high_quality_override_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_122",
+      "source": "manual_high_quality_override_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_123",
+      "source": "manual_high_quality_override_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_124",
+      "source": "manual_high_quality_override_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_126",
+      "source": "manual_high_quality_override_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_127",
+      "source": "original_serial_passthrough_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_128",
+      "source": "manual_high_quality_override_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_130",
+      "source": "original_serial_passthrough_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_135",
+      "source": "original_serial_passthrough_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_136",
+      "source": "original_serial_passthrough_v1",
+      "status": "ok",
+      "detail_tail": ""
+    },
+    {
+      "task_id": "arm_simd_loops.loop_137",
+      "source": "original_serial_passthrough_v1",
+      "status": "ok",
+      "detail_tail": ""
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "artifact": "/home/user/simdbench_full/results/generated/high_quality_scalar/simdbench136.new_serial_code.v20_mixed_original6.jsonl",
+  "base": "/home/user/simdbench_full/results/generated/high_quality_scalar/simdbench136.new_serial_code.v19_mixed_original4.jsonl",
+  "rows": 136,
+  "v18_rows": 130,
+  "original_solution_scalar_rows": [
+    "SimdBench_121_SVE",
+    "SimdBench_61_SVE",
+    "SimdBench_71_SVE",
+    "SimdBench_86_SVE",
+    "SimdBench_88_SVE",
+    "SimdBench_8_SVE"
+  ]
+}
