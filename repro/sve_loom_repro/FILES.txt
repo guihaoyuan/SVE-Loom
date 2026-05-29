@@ -21,11 +21,11 @@ bootstraps/simdbench136_high_quality_v20/ast_semantic_bootstrap.jsonl
 bootstraps/simdbench136_high_quality_v20/summary.md
 bootstraps/simdbench136_RSB/ast_semantic_bootstrap.jsonl
 bootstraps/simdbench136_RSB/summary.md
-data/dev.post_highrisk_holdout.jsonl
+data/dev.curated.jsonl
 data/nonoverlap_audit_summary.json
 data/nonoverlap_audit_summary.md
 data/nonoverlap_highrisk29_holdout_manifest.tsv
-data/train.post_highrisk_holdout.jsonl
+data/train.curated.jsonl
 scripts/build_hidden_strict_eval_problem_files.py
 scripts/build_high_quality_arm_simd_loops_scalar.py
 scripts/build_high_quality_simdbench_scalar.py

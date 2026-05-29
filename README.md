@@ -4,7 +4,7 @@ This repository contains the anonymous reproducibility artifact for a system tha
 generates Arm SVE code from natural-language task descriptions.  The artifact is
 organized to support three parts of the paper:
 
-1. the post-filtering NL-to-SVE training corpus,
+1. the curated NL-to-SVE training corpus,
 2. the SIMDBench and ARM SIMD Loops evaluation setup, and
 3. the SVE-Loom bootstrap, inference, feedback, and ACLE whitelist tooling.
 
@@ -20,9 +20,9 @@ candidates, and old backup snapshots are not included.
 │   └── Clang 15 SVE/ACLE whitelist artifacts
 ├── repro/sve_loom_repro/
 │   ├── data/
-│   │   ├── train.post_highrisk_holdout.jsonl
-│   │   ├── dev.post_highrisk_holdout.jsonl
-│   │   └── decontamination and high-risk holdout audit files
+│   │   ├── train.curated.jsonl
+│   │   ├── dev.curated.jsonl
+│   │   └── decontamination and held-out overlap audit files
 │   ├── benchmarks/
 │   │   ├── simdbench/
 │   │   └── arm_simd_loops/
@@ -47,12 +47,12 @@ reproducibility bundle.
 
 ## Corpus Snapshot
 
-The post-high-risk-holdout corpus snapshot contains:
+The curated corpus snapshot contains:
 
 | Split | File | Rows |
 | --- | --- | ---: |
-| Train | `repro/sve_loom_repro/data/train.post_highrisk_holdout.jsonl` | 5,321 |
-| Dev | `repro/sve_loom_repro/data/dev.post_highrisk_holdout.jsonl` | 626 |
+| Train | `repro/sve_loom_repro/data/train.curated.jsonl` | 5,321 |
+| Dev | `repro/sve_loom_repro/data/dev.curated.jsonl` | 626 |
 
 The audit and isolation files are:
 
@@ -60,8 +60,8 @@ The audit and isolation files are:
 - `repro/sve_loom_repro/data/nonoverlap_audit_summary.md`
 - `repro/sve_loom_repro/data/nonoverlap_highrisk29_holdout_manifest.tsv`
 
-These files document the duplicate and high-risk held-out overlap checks used
-before training.
+These files document the duplicate and held-out overlap checks used before
+training.
 
 ## Evaluation Files
 
@@ -193,8 +193,8 @@ to be supplied through environment variables or command-line arguments.
 Count the corpus rows:
 
 ```bash
-wc -l repro/sve_loom_repro/data/train.post_highrisk_holdout.jsonl
-wc -l repro/sve_loom_repro/data/dev.post_highrisk_holdout.jsonl
+wc -l repro/sve_loom_repro/data/train.curated.jsonl
+wc -l repro/sve_loom_repro/data/dev.curated.jsonl
 ```
 
 List the included files:

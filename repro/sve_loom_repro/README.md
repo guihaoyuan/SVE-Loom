@@ -7,8 +7,8 @@ workspace.
 ## Included
 
 - `data/`
-  - `train.post_highrisk_holdout.jsonl`: post-high-risk-holdout training split, 5,321 rows.
-  - `dev.post_highrisk_holdout.jsonl`: post-high-risk-holdout development split, 626 rows.
+  - `train.curated.jsonl`: curated training split, 5,321 rows.
+  - `dev.curated.jsonl`: curated development split, 626 rows.
   - holdout/decontamination manifest and summary files.
 - `benchmarks/simdbench/`
   - SIMDBench task data and strict hidden-test data.
